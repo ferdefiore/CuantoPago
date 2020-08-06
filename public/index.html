@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>¿Cuanto Pago?</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h1 class="title"> ¿Cuanto Pago? </h1>
+    <div class="out-div">
+        <div class="box first-step-div">
+            <h2>Seleccione sus datos</h2>
+            <div>
+                <label class="option-list" for="edificio">Edificio:</label>
+                <select id="edificio">
+                    <option value="default">...</option>
+                    <option value="Monviso Centro">Monviso Centro</option>
+                    <option value="Frentemar">Frentemar</option>
+                    <option value="Puesta de Sol">Puesta de Sol</option>
+                    <option value="Amanecer">Amanecer</option>
+                    <option value="Prince">Prince</option>
+                </select>
+
+                <label class="option-list" for="unidad-apellido">Unidad-Propietario:</label>
+                <select id="unidad">
+                    <option value="default">...</option>
+                </select>
+
+                <button class="button" id="consultar">Consultar</button>
+            </div>
+        </div>
+
+        <div class="box">
+            <h2>¿Cuanto Pago?</h2>
+            <div>
+                <label class="label">Su pago correspondiente al mes actual es de:</label>
+                <label class="label" id="resultado"></label>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
